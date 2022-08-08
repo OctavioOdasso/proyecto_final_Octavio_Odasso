@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#head {
+    background-color: rgb(97, 206, 240);
+    height: 100px;
+}
+
+#section {
+    background-color:rgb(97, 206, 240);
+    margin-top: 12px;
+    height: 700px;
+}
+
+#abajo {
+    background-color: rgb(97, 206, 240);
+    height: 200px;
+margin-top: 12px;
+ }
+
+.titulo{
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.titulo__2{
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#abajo {
+    background-color: rgb(97, 206, 240);
+    height: 200px;
+
+ }
+
+/*ESTILOS GENERALES*/
+
+nav ul { 
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    right: 0%;
+}
+
+nav li {
+    line-height: 3rem;
+    position: relative;
+    background-color: #333;
+}
+
+nav li ul {
+    position: absolute;
+    top: 3rem;
+}
+
+nav a {
+    color: #ddd;
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+    transition: .4;
+}
+
+nav a:hover {
+    background-color:  rgb(0, 0, 0, 0);
+}
+
+nav li ul {
+    display: none;
+}
+
+nav li:hover > ul {
+    display: block
+}
+
+/*PIRME NIVEL*/
+nav > ul {
+    background-color: #333;
+    display: table;
+    
+}
+
+nav > ul > li {
+    float: left;
+}
+/*SEGUNDO NIVEL*/
+nav li li {
+    background-color: #333;
+    width: 200px;
+}
+
+
+form {
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    background-color: #333;
+    color: #ddd;
+}
+
+input, textarea {
+    border: 0;
+    outline: none;
+    width: 250px;
+
+}
+
+.formulario {
+    border: solid 1px #333;
+    padding: 12px;
+
+}
+
+form > p {
+    text-align: center;
+}
+
+textarea {
+    height: 90px;
+}
+
+.form:focus { 
+    border-color: rgb(97, 206, 240);
+}
+
+.center__content {
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(97, 206, 240);
+    border: #ddd 2px solid;
+}
