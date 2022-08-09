@@ -4,34 +4,38 @@
 }
 
 
-
-#encabezado{
+.encabezado{
     padding: 15px;
     background-color: rgb(191, 230, 241);
-    height: 4em;
+    height: 8.5em;
     margin: 0;
 }
 
+.titulo {
+    text-align: center;
+}
 h2 {
     position: relative;
     text-align: center;
     font-size: 60px;
     margin-bottom: 30px;
 }
-
+/*menu*/
 /*ESTILOS GENERALES*/
 
 nav ul { 
     list-style: none;
     padding: 0;
-    position: absolute;
-    top: 0%;
-    right: 0%;
+    position: relative;
+    text-align: center;
+    margin: auto;
+   
 }
 
 nav li {
     line-height: 3rem;
     position: relative;
+    text-align: center;
     background-color: #333;
 }
 
@@ -75,15 +79,26 @@ nav li li {
     background-color: #333;
     width: 200px;
 }
+/*fin menu*/
 
+@keyframes examples {
+   0% {width: 25em;}
+   25% {width: 23em;}
+   50% {width: 25em;}
+   75% {width: 27em;}
+   100% {width: 25em;}
+}
 
-
-
-
-.fangio {
-    border-radius: 12px;
+.foto {
+    width: 25em;
+    border-radius: 1em;
     display: block;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: examples;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
 }
 
 
@@ -98,12 +113,24 @@ nav li li {
     text-align: center;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-
+    
 }
 
 .art2{
     text-align: center;
 }
+
+
+/*animacion tabla*/
+
+@keyframes border {
+    0% {border: solid 2px black}
+    25% {border: solid 3px rgb(164, 24, 24)}
+    50% {border: solid 2px rgb(0, 0, 0)}
+    75% {border: solid 3px rgb(164, 24, 24)}
+    100% {border: solid 2px black}
+}
+
 
 .tabla {
     height: 16em;
@@ -111,14 +138,37 @@ nav li li {
     position: relative;
     margin: 0% auto;
     font-size: 30px;
+    animation-name: border;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     border: 2px black solid;
+
 }
 
 .tabla__sub {
+    animation-name: border;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     border: 2px black solid;
 }
 
 #pie {
     margin-top: 15px;
     background-color:  rgb(191, 230, 241);
+}
+
+.lin_container {
+    margin: auto;
+    text-align: center;
+}
+
+.lin {
+    padding: 2em;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.lin_container:hover a {
+    color: rgb(13, 93, 142);
 }

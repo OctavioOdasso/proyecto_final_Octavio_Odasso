@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="Primera entrega" >
-        <title>Automovilismo</title>
-        <link class="log" rel="shortcut icon" href="img/Fangio.jpg">
-        <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="inicio.css">
-    </head>
-    <body>        
-        <header id="encabezado">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Primera entrega">
+    <title>Automovilismo</title>
+    <link class="log" rel="shortcut icon" href="img/Fangio.jpg">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="inicio.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="container">
+            <h1 class="titulo ">AUTOMOVILISMO</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Categorias</a>
+                    <ul>
+                        <li><a href="formula1.html">Formula 1</a></li>
+                        <li> <a href="wrc.html">WRC</a></li>
+                        <li> <a href="Dakar.html">DAKAR</a></li>
+                    </ul>
+                </li>
+                <li> <a href="contacto.html">CONTACTO</a></li>
+                <li> <a href="#pie"> pie de pagina</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sect">
+        <div class="container">
+            <h2 class="titulo">¿Que es el AUTOMOVILISMO?</h2>
+        </div>
+        <img class="foto" src="img/OIP (1).jfif" alt="foto">
+        <article class="art">
+            <p class="texto">El automovilismo es el deporte que se practica con automóviles. En la mayoría de las
+                modalidades, los automóviles deben completar un recorrido en el menor tiempo posible, o bien recorrer un
+                circuito la mayor cantidad de veces en un tiempo fijo.<br>
+                Existen otras disciplinas que tienen objetivos distintos, por ejemplo el drifting, donde los pilotos
+                deben realizar derrapes espectaculares.</p>
+        </article>
+        <article class="art2">
             <div class="container">
-                <h1 class="titulo ">AUTOMOVILISMO</h1>
+                <h2>Diferencias entre deportes</h2>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Categorias</a>  
-                        <ul>    
-                            <li><a href="formula1.html">Formula 1</a></li>
-                            <li> <a href="wrc.html">WRC</a></li>
-                            <li> <a href="Dakar.html">DAKAR</a></li>
-                        </ul>   
-                    </li>
-                    <li> <a href="contacto.html">CONTACTO</a></li>
-                    <li> <a href="#pie"> pie de pagina</a></li>    
-                </ul>       
-            </nav>
-        </header> 
-        <section id="sect">
-            <div class="container">    
-                <h2 class="container">¿Que es el AUTOMOVILISMO?</h2>
-            </div>
-            <img class="fangio" src="PF/img/OIP (1).jfif" alt="foto">
-            <article class="art">       
-                <p class="texto">El automovilismo es el deporte que se practica con automóviles. En la mayoría de las modalidades, los automóviles deben completar un recorrido en el menor tiempo posible, o bien recorrer un circuito la mayor cantidad de veces en un tiempo fijo.<br>
-                     Existen otras disciplinas que tienen objetivos distintos, por ejemplo el drifting, donde los pilotos deben realizar derrapes espectaculares.</p>
-            </article>  
-            <article class="art2">
-                <div class="container">
-                    <h2>Diferencias entre deportes</h2>
-                </div>
-                    <table class="tabla">
+            <div class="container1">
+
+                <table class="tabla">
                     <tr class="tabla__sub">
                         <th>Categorias</th>
                         <th>Autos</th>
@@ -52,7 +59,7 @@
                     <tr class="tabla__sub">
                         <td>Formula 1</td>
                         <td>Especialmente creados <br>
-                             para la competición</td>
+                            para la competición</td>
                         <td>Cerrados</td>
                         <td>Extremo</td>
                         <td>Todo el año</td>
@@ -70,22 +77,25 @@
                         <td>No tiene un circuito marcado</td>
                         <td>Extremo</td>
                         <td>Dos a Tres semanas</td>
-                    </tr>                  
+                    </tr>
                 </table>
-            </article>
-           
-        </section>
-        <footer id="pie">
-            <div class="container">            
-                <h2>LOGO</h2>
             </div>
-                <div>
-                    <h3>redes sociales del creador de la pagina</h3>
-                    <a href="https://twitter.com/Octa_Odasso">twitter</a>
-                     <a href="https://www.instagram.com/octavio_odasso/?hl=es-la">instagram</a>
-                </div>  
-                <h3><a href="#encabezado">volver al menu</a></h3>    
-        </footer>
+        </article>
+
+    </section>
+    <footer id="pie">
+        <div class="container">
+            <h2>LOGO</h2>
+        </div>
+        <h3 class="titulo">redes sociales del creador de la pagina</h3>
+        <div class="lin_container">
+            <h3><a class="lin" href="#encabezado">volver al menu</a></h3>
+            <a class="lin" href="https://twitter.com/Octa_Odasso">twitter</a>
+            <a class="lin" href="https://www.instagram.com/octavio_odasso/?hl=es-la">instagram</a>
+        </div>
         
-    </body>
+    </footer>
+
+</body>
+
 </html>
