@@ -26,7 +26,7 @@ nav ul {
     padding: 0;
     position: relative;
     text-align: center;
-    margin: auto;
+    margin-top: 1em;
    
 }
 
@@ -129,6 +129,12 @@ p {
     animation-duration: 6s;
     animation-iteration-count: infinite;
 }
+
+.log_1 {
+    position: absolute;
+    margin-top: 1em;
+}
+
 
 @keyframes tit {
     0% {font-size: 3.5;}
